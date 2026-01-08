@@ -168,6 +168,7 @@
                 "HLC_CIRQUE_TRACKPAD": "1",
                 "TARGET": "merlin_hlc_corne"
             }
-        ]
+        ],
+        ["splitkb/halcyon/ferris/rev1", "merlin_hlc"]
     ]
 }
