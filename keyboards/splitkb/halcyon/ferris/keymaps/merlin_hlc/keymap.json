@@ -18,7 +18,7 @@
             "KC_MINS"       , "KC_EQL"      , "KC_GRV"      , "KC_TRNS"     , "KC_ESC"              , "KC_F11"      , "KC_F12"      , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS",
                                                               "KC_NO"       , "KC_TRNS"             , "KC_TRNS"     , "KC_TRNS",
 
-            "KC_MUTE"     , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO"            , "KC_MUTE"       , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO"
+            "KC_MUTE"     , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO"            , "KC_MUTE"     , "KC_NO"       , "KC_NO"        , "KC_NO"         , "KC_NO"
         ],
         [
             "KC_EXCLAIM"    , "KC_AT"       , "KC_HASH"     , "KC_DOLLAR"   , "KC_PERCENT"          , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS",
@@ -48,7 +48,7 @@
             "KC_TAB"        , "KC_Q"        , "KC_W"        , "KC_E"        , "KC_R"                , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS",
             "KC_LCTL"       , "KC_A"        , "KC_S"        , "KC_D"        , "KC_F"                , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS",
             "KC_LSFT"       , "KC_Z"        , "KC_X"        , "KC_C"        , "KC_V"                , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS",
-                                                              "LT(6, KC_BSPC", "LT(7, KC_SPACE)"    , "KC_TRNS"     , "MO(8)",
+                                                              "LT(6, KC_BSPC)", "LT(7, KC_SPACE)"   , "KC_TRNS"     , "MO(8)",
 
             "KC_MUTE"     , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO"            , "KC_MUTE"       , "KC_NO"       , "KC_NO"          , "KC_NO"         , "KC_NO"
         ],
@@ -86,6 +86,8 @@
         ]
     ],
     "encoders": [
+        [{"ccw": "KC_VOLD", "cw": "KC_VOLU"}, {"ccw": "KC_PGUP", "cw": "KC_PGDN"}],
+        [{"ccw": "KC_VOLD", "cw": "KC_VOLU"}, {"ccw": "KC_PGUP", "cw": "KC_PGDN"}],
         [{"ccw": "KC_VOLD", "cw": "KC_VOLU"}, {"ccw": "KC_PGUP", "cw": "KC_PGDN"}],
         [{"ccw": "KC_VOLD", "cw": "KC_VOLU"}, {"ccw": "KC_PGUP", "cw": "KC_PGDN"}],
         [{"ccw": "KC_VOLD", "cw": "KC_VOLU"}, {"ccw": "KC_PGUP", "cw": "KC_PGDN"}],
